@@ -1,4 +1,4 @@
-# FastAPI
+# FastAPI 🚀
 
 ## Introduction
 
@@ -43,6 +43,9 @@ Pour démarrer le serveur, exécutez la commande suivante :
 $ python3 main.py
 ```
 
+Sortie de la console :
+
+```console
 Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 Started reloader process [28720]
 Started server process [28722]
