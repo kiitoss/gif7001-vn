@@ -1,5 +1,6 @@
 from fastapi import FastAPI, Request
 from fastapi.responses import StreamingResponse, JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
 from pyzbar.pyzbar import decode
 import cv2
 import numpy as np
@@ -8,8 +9,16 @@ import os
 import signal
 
 app = FastAPI()
-camera = None
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+    allow_credentials=True,
+)
+
+camera = None
 
 async def streamer():
     """

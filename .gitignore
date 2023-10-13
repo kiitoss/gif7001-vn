@@ -1,7 +1,7 @@
 .ipynb_checkpoints/
 .idea/**
 .idea/
-app/__pycache__/
+backend/__pycache__/
 .idea/.gitignore
 .idea/workspace.xml
 .idea/misc.xml
