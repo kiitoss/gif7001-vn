@@ -1,1 +1,12 @@
 .ipynb_checkpoints/
+.idea/**
+.idea/
+backend/__pycache__/
+.idea/.gitignore
+.idea/workspace.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/gif7001-vn.iml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/inspectionProfiles/profiles_settings.xml
