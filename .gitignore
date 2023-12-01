@@ -10,3 +10,5 @@ backend/__pycache__/
 .idea/gif7001-vn.iml
 .idea/inspectionProfiles/Project_Default.xml
 .idea/inspectionProfiles/profiles_settings.xml
+data/**
+logos/**
